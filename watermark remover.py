@@ -122,7 +122,7 @@ def bold_font(image, x,y,font, text, fill_color, outline_color, outline_width):
  
  
 def paraphrase(prompt):
-    openai.api_key = "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"
+    openai.api_key = "hi"
     response = openai.Completion.create(
         engine='text-curie-001',
         prompt=prompt,
